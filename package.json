@@ -21,6 +21,10 @@
     "core-js": "^2.4.1",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
+    "bower": "0.6.x"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
   },
   "devDependencies": {
     "@angular/cli": "1.0.0",
